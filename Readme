@@ -3,3 +3,13 @@ Inditashoz szukseges modulok:psutil, tkinter
 Leiras:
 Ez Egy olyan program, amely lekeri a felhasznalo szamitogepenek mukodesi adatait, meghatarozza hogy tul van e terhelve a szamitogep, valamint a kapott eredmenyeket tudja exportalni fileba.
 Tkinter modult hasznal a gui megjelenitesre, valamint a psutil modul segitsegevel tudja elerni a felhasznalo szamitogepenek a hasznaltsagat, akkumlatorszintjet stb.
+Osztalyok: Data osztaly; ebbe olvasodinak be es tarolodnak az adatok a szamitogeprol.
+Fuggvenyek:
+  Tkinter:
+          -tk.button-Gombokat keszit es azokat hasznalja
+          -tk-label-cimkeben jeleniti meg az adatokat
+  psutil:
+          -psutil.cpu_percent - A processzor kihasznaltsagi szintjet keri le
+          -psutil.disk_usage - a kijelolt lemez felhasznaltsagi szintjet keri le
+          -psutil.sensors_battery - az akkumulator szintjet keri le
+          -psutil.cpu_count - a magok szamat keri le
