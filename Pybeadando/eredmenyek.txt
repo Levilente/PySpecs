@@ -1,0 +1,4 @@
+CPU-Felhasznalas: 1.0%
+Lemezfelhasznalas: total=511180795904, used=381673287680, free=129507508224, percent=74.7%
+Akkumulator: 100%
+Logikai magok szama: 12
