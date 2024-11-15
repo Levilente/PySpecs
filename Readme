@@ -1,0 +1,5 @@
+Nev: Szalai Levente VIDA35
+Inditashoz szukseges modulok:psutil, tkinter
+Leiras:
+Ez Egy olyan program, amely lekeri a felhasznalo szamitogepenek mukodesi adatait, meghatarozza hogy tul van e terhelve a szamitogep, valamint a kapott eredmenyeket tudja exportalni fileba.
+Tkinter modult hasznal a gui megjelenitesre, valamint a psutil modul segitsegevel tudja elerni a felhasznalo szamitogepenek a hasznaltsagat, akkumlatorszintjet stb.
